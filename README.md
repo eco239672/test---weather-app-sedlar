@@ -6,6 +6,16 @@ Podla toho ci vypracovavate toto zadanie na pohovore, alebo doma, vypracujte tod
 
 Depending on whether you are working on this task during an interview or at home, complete todo-on-site.md or todo-home.md.
 
+## Nastavenie API kľúča
+
+Aplikácia používa OpenWeatherMap API. Pred spustením vytvorte v koreňovom priečinku súbor `.env.local` a nastavte vlastný kľúč:
+
+```env
+REACT_APP_OPENWEATHER_API_KEY=vas_openweathermap_api_kluc
+```
+
+Súbor `.env.local` sa neukladá do Gitu.
+
 
 ## Available Scripts
 
