@@ -4,7 +4,9 @@ Podla toho ci vypracovavate toto zadanie na pohovore, alebo doma, vypracujte tod
 
 -----
 Pre spustenie
+
 npm install 
+
 npm start
 
 
