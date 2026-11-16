@@ -9,7 +9,7 @@ Depending on whether you are working on this task during an interview or at home
 ## Nastavenie API kľúča
 
 Aplikácia používa OpenWeatherMap API. Pred spustením vytvorte v koreňovom priečinku súbor `.env.local` a nastavte vlastný kľúč:
-
+Ktorý stiahnete na openweathermap.org
 ```env
 REACT_APP_OPENWEATHER_API_KEY=vas_openweathermap_api_kluc
 ```
