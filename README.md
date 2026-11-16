@@ -3,6 +3,8 @@
 Podla toho ci vypracovavate toto zadanie na pohovore, alebo doma, vypracujte todo-on-site.md alebo todo-home.md.
 
 -----
+
+pridané barometrický tlak, oprava preklepu "Nocvember"
 Pre spustenie
 
 npm install 
