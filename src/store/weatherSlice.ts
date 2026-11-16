@@ -3,7 +3,7 @@ import axios from 'axios';
 import { WeatherResponse } from '../types/WeatherResponse';
 
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
-const appId = process.env.REACT_APP_OPENWEATHER_API_KEY;
+const appId = 'f00c38e0279b7bc85480c3fe775d518c';
 
 type SearchResult = {
   cities: WeatherResponse[];
@@ -27,13 +27,6 @@ const initialState: WeatherState = {
 export const fetchWeatherForCities = createAsyncThunk<SearchResult, string>(
   'weather/fetchWeatherForCities',
   async (rawQuery) => {
-    if (!appId) {
-      return {
-        cities: [],
-        errors: ['Chýba OpenWeatherMap API kľúč. Nastavte REACT_APP_OPENWEATHER_API_KEY v súbore .env.local.'],
-      };
-    }
-
     const cityNames = Array.from(
       new Set(
         rawQuery
