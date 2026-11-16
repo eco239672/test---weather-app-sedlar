@@ -6,6 +6,8 @@ Podla toho ci vypracovavate toto zadanie na pohovore, alebo doma, vypracujte tod
 Pre spustenie
 npm install 
 npm start
+
+
 Depending on whether you are working on this task during an interview or at home, complete todo-on-site.md or todo-home.md.
 
 ## Available Scripts
